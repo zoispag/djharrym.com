@@ -8,7 +8,7 @@
   </div>
 
   <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">Some Words About Me</h2>
     </div>
     <img
@@ -27,7 +27,7 @@
   </section>
 
   <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">My Latest Mixtape</h2>
     </div>
     <MixCloud :count="1" />
@@ -59,7 +59,7 @@
   </PhotoSection>
 
   <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">Listen to My Previous Mixtapes</h2>
     </div>
 
@@ -83,7 +83,7 @@
   </section>
 
   <section class="p-8 mx-auto w-full sm:w-2/3 section-bg">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-4">
       <h2 class="text-yellow-300 text-2xl">Contact</h2>
     </div>
 
