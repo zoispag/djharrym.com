@@ -138,7 +138,7 @@ export default {
 
 <style>
 #app {
-  @apply subpixel-antialiased pb-6;
+  @apply subpixel-antialiased pb-8;
   background-image: url('./assets/space-bg.jpg');
   background-repeat: repeat;
   background-position: center top;
