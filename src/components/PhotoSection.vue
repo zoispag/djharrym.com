@@ -1,5 +1,5 @@
 <template>
-  <section class="p-8 mx-auto w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">{{ header }}</h2>
     </div>

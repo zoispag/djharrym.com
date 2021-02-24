@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap justify-center">
     <div v-for="url in photos">
       <img
         :src="url"

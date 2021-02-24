@@ -1,6 +1,5 @@
 <template>
   <div v-if="shows.length" v-for="show in shows">
-    {{ show.name }}
     <MixCloudShow :feed="show.feed" />
   </div>
   <div v-else>

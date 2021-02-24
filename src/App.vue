@@ -39,9 +39,9 @@
     img-alt="energymixradio.com logo"
   >
     <p class="text-yellow-300 text-lg tracking-widest mb-4">EnergyMixRadio</p>
-        <p class="text-white text-base tracking-wider mb-4 font-semibold">"D E A L E R" of HOUSE music</p>
-        <p class="text-yellow-300 text-lg tracking-widest mb-8">www.EnergyMixRadio.com</p>
-        <a class="button" href="https://www.energymixradio.com/">Tune in now</a>
+    <p class="text-white text-base tracking-wider mb-4 font-semibold">"D E A L E R" of HOUSE music</p>
+    <p class="text-yellow-300 text-lg tracking-widest mb-8">www.EnergyMixRadio.com</p>
+    <a class="button" href="https://www.energymixradio.com/">Tune in now</a>
   </PhotoSection>
 
   <PhotoSection

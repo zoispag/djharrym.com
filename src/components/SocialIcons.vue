@@ -6,7 +6,7 @@
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          class="w-8 h-8 fill-current mx-2"
+          class="w-6 h-6 sm:w-8 sm:h-8 fill-current mx-2"
           v-html="network.svg"
         ></svg>
       </a>
