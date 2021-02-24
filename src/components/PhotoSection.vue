@@ -1,10 +1,13 @@
 <template>
-  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
+    <section class="p-8 mx-auto w-full sm:w-3/4 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">{{ header }}</h2>
     </div>
 
-    <div class="md:flex md:justify-between md:items-center">
+    <div
+      class="md:flex md:justify-between md:items-center"
+      :class="{ 'flex-row-reverse' : isReverse }"
+    >
       <img
         :src="imgSrc"
         :alt="imgAlt"
@@ -20,6 +23,23 @@
 <script>
 export default {
   name: 'PhotoSection',
-  props: ['header', 'imgSrc', 'imgAlt']
+  props: {
+    header: {
+      type: String,
+      required: true,
+    },
+    imgSrc: {
+      type: String,
+      required: true,
+    },
+    imgAlt: {
+      type: String,
+      required: true,
+    },
+    isReverse: {
+      type: Boolean,
+      default: false
+    }
+  }
 }
 </script>

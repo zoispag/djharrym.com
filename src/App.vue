@@ -7,7 +7,7 @@
     <Hero></Hero>
   </div>
 
-  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-3/4 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">Some Words About Me</h2>
     </div>
@@ -21,12 +21,12 @@
       <p class="text-white mb-2">I was 14 years old when I first came in touch with the world of vinyls. During the 90's I amassed a large collection with different styles and sounds. Since then, I have produced countless, non-stop HOUSE MUSIC mixes powered by my favorites decks, <strong>-Technics MK2-</strong></p>
       <p class="text-white">I always follow two phrases in my life: "<em>Not everyone understands HOUSE MUSIC... It's a spiritual thing</em>" because "<em>MUSIC IS THE ANSWER</em>"</p>
     </div>
-    <div class="flex justify-end">
+    <div class="flex justify-end mt-2">
       <h2 class="text-yellow-300 text-xl italic">God bless you... "Η.Μ"</h2>
     </div>
   </section>
 
-  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-3/4 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">My Latest Mixtape</h2>
     </div>
@@ -48,6 +48,7 @@
     header='Resident Dj at "NAKAL State of Mind"'
     :img-src="nakalLogo"
     img-alt="nakal logo"
+    :isReverse="true"
   >
     <p class="text-yellow-300 text-lg tracking-widest mb-4">NAKAL State of Mind</p>
     <p class="text-white text-base tracking-wide">Leof.Avlakiou 100 Porto Rafti</p>
@@ -58,7 +59,7 @@
     <p class="mb-4"><a class="button" href="https://goo.gl/maps/ruvvBbjABUjp9ms59">Google Map</a></p>
   </PhotoSection>
 
-  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-3/4 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">Listen to My Previous Mixtapes</h2>
     </div>
@@ -82,7 +83,7 @@
     </div>
   </section>
 
-  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg">
+  <section class="p-8 mx-auto w-full sm:w-3/4 section-bg">
     <div class="flex justify-center mb-4">
       <h2 class="text-yellow-300 text-2xl">Contact</h2>
     </div>

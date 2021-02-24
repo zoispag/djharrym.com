@@ -1,5 +1,5 @@
 <template>
-  <div v-if="shows.length" v-for="show in shows" class="mb-1">
+  <div v-if="shows.length" v-for="show in shows" class="mb-4">
     <MixCloudShow :feed="show.feed" />
   </div>
   <div v-else>
