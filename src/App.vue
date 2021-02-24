@@ -7,7 +7,7 @@
     <Hero></Hero>
   </div>
 
-  <section class="p-8 mx-auto w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
     <div class="flex justify-center">
       <h2 class="text-yellow-300 text-2xl">Some Words About Me</h2>
     </div>
@@ -17,7 +17,7 @@
       class="object-fill my-4 w-full"
     />
     <div>
-      <p class="text-yellow-300 text-2xl mb-4">I`m Harry Misouras aka Dj Harry M</p>
+      <p class="text-yellow-300 text-2xl mb-4">I'm Harry Misouras aka Dj Harry M</p>
       <p class="text-white mb-2">I was 14 years old when I first came in touch with the world of vinyls. During the 90's I amassed a large collection with different styles and sounds. Since then, I have produced countless, non-stop HOUSE MUSIC mixes powered by my favorites decks, <strong>-Technics MK2-</strong></p>
       <p class="text-white">I always follow two phrases in my life: "<em>Not everyone understands HOUSE MUSIC... It's a spiritual thing</em>" because "<em>MUSIC IS THE ANSWER</em>"</p>
     </div>
@@ -26,7 +26,7 @@
     </div>
   </section>
 
-  <section class="p-8 mx-auto w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
     <div class="flex justify-center">
       <h2 class="text-yellow-300 text-2xl">My Latest Mixtape</h2>
     </div>
@@ -58,7 +58,7 @@
     <p class="mb-4"><a class="button" href="https://goo.gl/maps/ruvvBbjABUjp9ms59">Google Map</a></p>
   </PhotoSection>
 
-  <section class="p-8 mx-auto w-2/3 section-bg mb-24">
+  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg mb-24">
     <div class="flex justify-center">
       <h2 class="text-yellow-300 text-2xl">Listen to My Previous Mixtapes</h2>
     </div>
@@ -82,7 +82,7 @@
     </div>
   </section>
 
-  <section class="p-8 mx-auto w-2/3 section-bg">
+  <section class="p-8 mx-auto w-full sm:w-2/3 section-bg">
     <div class="flex justify-center">
       <h2 class="text-yellow-300 text-2xl">Contact</h2>
     </div>
@@ -141,7 +141,6 @@ export default {
   background-image: url('./assets/space-bg.jpg');
   background-repeat: repeat;
   background-position: center top;
-
 }
 
 .section-bg {
