@@ -59,6 +59,35 @@
     <p class="mb-4"><a class="button" href="https://goo.gl/maps/ruvvBbjABUjp9ms59">Google Map</a></p>
   </PhotoSection>
 
+  <PhotoSection
+    header='"Music is the ANSWER" radio shows'
+    :img-src="radioShowLogo"
+    img-alt="Music is the ANSWER show logo"
+  >
+    <RadioShow
+      :img-src="mustLogo"
+      img-alt="Radio Must Athens show logo"
+    >
+      <p class="text-yellow-300 tracking-wider">Radio Must Athens</p>
+      <p class="text-white text-base">Be Connected... Be MUST</p>
+      <p class="text-white text-base">Monday 23:00 (GMT+2)</p>
+      <p class="text-yellow-300 tracking-wider mb-2">www.RadioMustAthens.com</p>
+      <a class="button" href="http://radiomustathens.com/">Tune in now</a>
+    </RadioShow>
+
+    <RadioShow
+      :img-src="energyLogo"
+      img-alt="energymixradio.com logo"
+      class="mt-2"
+    >
+      <p class="text-yellow-300 tracking-wider">EnergyMixRadio</p>
+      <p class="text-white text-base whitespace-nowrap">"D E A L E R" of HOUSE music</p>
+      <p class="text-white text-base">Saturday 22:00 (GMT+2)</p>
+      <p class="text-yellow-300 tracking-wider mb-2">www.EnergyMixRadio.com</p>
+      <a class="button" href="https://www.energymixradio.com/">Tune in now</a>
+    </RadioShow>
+  </PhotoSection>
+
   <section class="p-8 mx-auto w-full sm:w-3/4 section-bg mb-24">
     <div class="flex justify-center mb-8">
       <h2 class="text-yellow-300 text-2xl">Listen to My Previous Mixtapes</h2>
@@ -105,11 +134,14 @@ import Hero from './components/Hero.vue'
 import MixCloud from './components/MixCloud.vue'
 import Masonry from './components/Masonry.vue'
 import PhotoSection from './components/PhotoSection.vue'
+import RadioShow from './components/RadioShow.vue'
 import ContactForm from './components/ContactForm.vue'
 import SocialIcons from './components/SocialIcons.vue'
 
 import energyLogo from './assets/energymixradio.jpg'
 import nakalLogo from './assets/nakal.jpg'
+import mustLogo from './assets/must-radio.jpg'
+import radioShowLogo from './assets/music-answer.jpg'
 
 export default {
   name: 'App',
@@ -119,13 +151,16 @@ export default {
     MixCloud,
     Masonry,
     PhotoSection,
+    RadioShow,
     ContactForm,
     SocialIcons,
   },
   data() {
     return {
       energyLogo,
-      nakalLogo
+      nakalLogo,
+      mustLogo,
+      radioShowLogo,
     }
   },
   computed: {
