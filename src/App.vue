@@ -63,27 +63,28 @@
     header='"Music is the ANSWER" radio shows'
     :img-src="radioShowLogo"
     img-alt="Music is the ANSWER show logo"
+    :side-padding="false"
   >
     <RadioShow
       :img-src="mustLogo"
       img-alt="Radio Must Athens show logo"
     >
-      <p class="text-yellow-300 tracking-wider">Radio Must Athens</p>
-      <p class="text-white text-base">Be Connected... Be MUST</p>
-      <p class="text-white text-base">Monday 23:00 (GMT+2)</p>
-      <p class="text-yellow-300 tracking-wider mb-2">www.RadioMustAthens.com</p>
+      <p class="text-yellow-300 radio-texttracking-wider">Radio Must Athens</p>
+      <p class="text-white radio-text">Be Connected... Be MUST</p>
+      <p class="text-white radio-text">Monday 23:00 (GMT+2)</p>
+      <p class="text-yellow-300 radio-text tracking-wider mb-2">www.RadioMustAthens.com</p>
       <a class="button" href="http://radiomustathens.com/">Tune in now</a>
     </RadioShow>
 
     <RadioShow
       :img-src="energyLogo"
       img-alt="energymixradio.com logo"
-      class="mt-2"
+      class="mt-6 sm:mt-2"
     >
-      <p class="text-yellow-300 tracking-wider">EnergyMixRadio</p>
-      <p class="text-white text-base whitespace-nowrap">"D E A L E R" of HOUSE music</p>
-      <p class="text-white text-base">Saturday 22:00 (GMT+2)</p>
-      <p class="text-yellow-300 tracking-wider mb-2">www.EnergyMixRadio.com</p>
+      <p class="text-yellow-300 radio-text tracking-wider">EnergyMixRadio</p>
+      <p class="text-white radio-text">"D E A L E R" of HOUSE music</p>
+      <p class="text-white radio-text">Saturday 22:00 (GMT+2)</p>
+      <p class="text-yellow-300 radio-text tracking-wider mb-2">www.EnergyMixRadio.com</p>
       <a class="button" href="https://www.energymixradio.com/">Tune in now</a>
     </RadioShow>
   </PhotoSection>
@@ -183,6 +184,10 @@ export default {
   background-image: url('./assets/mixcloud-bg.jpg');
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.radio-text {
+  @apply text-base sm:text-sm xl:text-base whitespace-nowrap;
 }
 
 .button {

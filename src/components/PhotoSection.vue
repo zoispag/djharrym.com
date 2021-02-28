@@ -13,7 +13,10 @@
         :alt="imgAlt"
         class="w-full object-contain md:w-64 md:h-64 lg:w-96 lg:h-96"
       >
-      <div class="mt-10 md:mt-0 md:px-4 md:pr-16">
+      <div
+        class="mt-10 md:mt-0 md:pr-16"
+        :class="{ 'md:px-4' : sidePadding }"
+      >
         <slot></slot>
       </div>
     </div>
@@ -39,7 +42,11 @@ export default {
     isReverse: {
       type: Boolean,
       default: false
-    }
+    },
+    sidePadding: {
+      type: Boolean,
+      default: true
+    },
   }
 }
 </script>
